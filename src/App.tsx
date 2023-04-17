@@ -11,7 +11,7 @@ import EventCalendar from './pages/calendar';
 function App(){
 
   return (
-    <BrowserRouter basename='client'>
+    <BrowserRouter basename='/'>
     <Layout>
       
       <Routes>
