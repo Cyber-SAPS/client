@@ -1,6 +1,7 @@
 import useAudio from "./useAudio";
 import { useBoolean } from "./useBoolean";
 import { useCounter } from "./useCounter";
+import { useDate } from "./useDate";
 import useDeviceDetect from "./useDeviceDetect";
 import useGetDeviceViewInfo from "./useGetDeviceViewInfo";
 import { useHover } from "./useHover";
@@ -22,4 +23,5 @@ export {
     useAudio,
     useHover,
     useToggle,
+    useDate,
 }

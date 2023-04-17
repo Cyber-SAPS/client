@@ -2,6 +2,7 @@ import {useDeviceDetect, useGetDeviceViewInfo }from '../../feature/hooks';
 import * as React from 'react'
 import { NavBar } from './navigation';
 import { NetworkStatus } from '../../feature/network';
+import { Footer } from './footer';
 
 
 interface LayoutI {
@@ -20,6 +21,7 @@ export const Layout =({children}: LayoutI)=> {
             <NavBar isMobile={isMobile} isMobileDevice={isMobileDevice} isTablet={isTablet} isDesktop={isDesktop} />
             <NetworkStatus />
             {children}
+            <Footer />
         </React.Fragment>
     )
 }
